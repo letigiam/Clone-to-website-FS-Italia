@@ -1,0 +1,19 @@
+.bg-color{
+    background: transparent linear-gradient(
+        180deg,#b2b2b2 0,#444 100%) 0 0 no-repeat padding-box;
+}
+.box-footer{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    padding-bottom: 2rem;
+}
+a{
+    color: #fff;
+}
+a:hover{
+    color: #c1c1c1;
+}
+a:active{
+    color: #000;
+}
+.font{ font-family: 'Montserrat', sans-serif;}

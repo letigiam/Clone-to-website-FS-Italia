@@ -1,0 +1,12 @@
+
+/* IMG LOGO  */
+.img-logo{
+    width: 200px;
+}
+
+/* TESTO UPPERCASE */
+
+.text-Up{
+    text-transform: uppercase;
+}
+.font{ font-family: 'Montserrat', sans-serif;}

@@ -1,0 +1,57 @@
+<div class="row mb-3">
+    <h2 class="font mt-4">Offerte e servizi</h2>
+    <div class="box-card col-12">
+        <div class="col-md-4 boxstile">
+            <img class="box-img" src="../../../assets/img-promo/promo1.jpeg" alt="">
+            <button type="button" class="btn btn-secondary box-text" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Singolo Viaggio
+              </button>
+        </div>
+        <div class="col-md-4 boxstile">
+            <img class="box-img" src="../../../assets/img-promo/promo2.jpeg" alt="">
+            <p class="btn btn-secondary box-text" (click)="goTo('/advanced-search')" >Ricerca Avanzata</p>
+        </div>
+        <div class="col-md-4 boxstile">
+            <img class="box-img" src="../../../assets/img-promo/promo3.jpeg" alt="">
+            <p class="btn btn-secondary box-text" (click)="goTo('/promo')">Pagina Promo</p>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Singolo Viaggio</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        <div class="row col-12">
+            <div class="col-md-6">
+                <h4>Promo Svizzera a partire da 25€</h4>
+                <p>Raggiungi in Eurocity le più belle città svizzere ad un prezzo speciale grazie alla Promo Svizzera.
+      
+                  Vivi la magica atmosfera che precede il Natale a Berna, Basilea, Ginevra, Lucerna, Losanna, Montreux e Zurigo: potrai acquistare i biglietti fino al 30 novembre 2021 per viaggiare dal 20 novembre al 20 dicembre 2021 .</p>
+                <p>Questi i prezzi dei biglietti:</p>
+                  <ul>
+                    <li>da Milano a Zurigo, Berna, Basilea, Ginevra, Lucerna, Losanna e Montreux: a partire da 25€ in seconda classe e 45€ in prima classe;</li>
+                    <li>da Genova a Zurigo: a partire da 30€ in seconda classe e 50€ in prima classe.</li>
+                </ul>
+                <p>Offerta a posti limitati e soggetta a restrizioni. Biglietto non modificabile.</p>
+            </div>
+            <div class="col-md-6">
+
+                <img class="img-promo" src="../../../assets/img-promo/img-single-trip.jpeg" alt="">
+            </div>
+        </div>
+         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Acquista</button>
+        </div>
+      </div>
+    </div>
+  </div>

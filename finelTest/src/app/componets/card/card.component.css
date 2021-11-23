@@ -1,0 +1,44 @@
+
+.font{ font-family: 'Montserrat', sans-serif;}
+.box-card{
+    display: flex!important;
+    margin: 2rem;
+}
+
+.boxstile {
+    position: relative;
+    padding-bottom: 22rem;
+}
+
+.box-img{
+    border-radius: 10px;
+    position: absolute;
+}
+
+.box-text{
+    top: 16rem;
+    left: 1rem;
+    position: absolute;
+    font-size: 25px;
+    color: #fff;
+}
+
+a{
+    color: #fff;
+}
+a:hover{
+    color: #c1c1c1;
+}
+a:active{
+    color: #000;
+}
+.img-promo{
+    border-radius: 10px;
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 920px;
+        margin: 1.75rem auto;
+    }
+}
