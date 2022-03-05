@@ -12,7 +12,7 @@ import { RouterModule } from '@angular/router';
 import { MatNativeDateModule, MatOptionModule } from '@angular/material/core';
 import { HomeComponent } from './componets/home/home.component';
 import { CommonModule } from '@angular/common';
-
+import { PromoComponent } from './componets/pages/promo/promo.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,6 +21,7 @@ import { CommonModule } from '@angular/common';
     CardComponent,
     FooterComponent,
     HomeComponent,
+    PromoComponent
   ],
   imports: [
     BrowserModule,
